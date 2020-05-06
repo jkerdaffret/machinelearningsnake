@@ -15,7 +15,7 @@ let w;
 let h;
 
 function setup() {
-  createCanvas(640, 480);
+  createCanvas(700, 420);
    classifyAudio();
   w = floor(width / rez);
   h = floor(height / rez);
