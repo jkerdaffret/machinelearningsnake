@@ -35,3 +35,33 @@ h1 {
 #defaultCanvas2 {
    display: none;
 }
+
+a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+input, button {
+        display: block;
+        width: 200px;
+        height: 50px;
+        background: #F00;
+        outline: none;
+        cursor: pointer;
+        border-radius: 7px;
+        color: #FFF;
+        font-family: 'Orbitron', sans-serif;
+        text-transform: uppercase;
+        font-size: 22px;
+        margin: 40px 20px 0 20px;
+        box-shadow: 2px 2px 2px 2px black;
+        transition: all 0.3s linear;
+}
+
+button:hover {
+    box-shadow: 0px 0px 0px 0px #EEE;
+}
+
+input:hover {
+    box-shadow: 0px 0px 0px 0px #EEE;
+}
