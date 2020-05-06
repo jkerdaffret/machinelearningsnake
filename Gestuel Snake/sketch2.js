@@ -27,7 +27,7 @@ function setup() {
   foodLocation();
   
   video = createCapture(VIDEO);
-  video.size(500,500);
+  video.size(200,200);
   // video.hide();
   
   flipVideo = ml5.flipImage(video);
