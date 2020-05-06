@@ -62,7 +62,7 @@ function draw() {
   snake.show();
 
   if (snake.endGame()) {
-    print('END GAME');
+    print('END GAME');  
     background(255, 0, 0);
     noLoop();
   }
